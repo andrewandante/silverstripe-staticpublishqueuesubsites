@@ -14,3 +14,10 @@
  * @license https://opensource.org/licenses/BSD-3-Clause BSD-3-Clause
  * @link https://github.com/andrewandante/silverstripe-staticpublishqueuesubsites
  */
+
+use SilverStripe\CMS\Model\SiteTree;
+use SilverStripe\StaticPublishQueue\Extension\Publishable\PublishableSiteTree;
+use SilverStripe\StaticPublishQueue\Subsites\SubsitesPublishableSiteTree;
+
+SiteTree::remove_extension(PublishableSiteTree::class);
+SiteTree::add_extension(SubsitesPublishableSiteTree::class);
