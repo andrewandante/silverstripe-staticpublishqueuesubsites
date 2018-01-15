@@ -1,0 +1,6 @@
+---
+Name: silverstripe-staticpublishqueuesubsites-extensions
+---
+SilverStripe\StaticPublishQueue\Job\StaticCacheFullBuildJob:
+  extensions:
+    - SilverStripe\StaticPublishQueue\Subsites\StaticCacheFullBuildJobExtension

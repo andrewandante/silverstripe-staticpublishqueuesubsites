@@ -1,4 +1,5 @@
 ---
 Name: silverstripe-staticpublishqueuesubsites
 ---
-
+SilverStripe\StaticPublishQueue\Publisher:
+  domain_based_caching: true
